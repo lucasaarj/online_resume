@@ -61,21 +61,3 @@ const sectionObserver = new IntersectionObserver((entries) => {
 
 sections.forEach((section) => sectionObserver.observe(section));
 
-// Objetivo profissional explícito e download do currículo.
-const heroDescription = document.querySelector(".hero-description");
-if (heroDescription) {
-  const objective = document.createElement("p");
-  objective.className = "hero-kicker hero-objective";
-  objective.textContent = "Objetivo: oportunidade de Estágio ou Desenvolvedor Backend Java Júnior.";
-  heroDescription.insertAdjacentElement("afterend", objective);
-}
-
-const heroActions = document.querySelector(".hero-actions");
-if (heroActions) {
-  const resumeLink = document.createElement("a");
-  resumeLink.className = "button button-ghost";
-  resumeLink.href = "./curriculo-lucas-gomes-araujo.pdf";
-  resumeLink.download = "Lucas_Gomes_Araujo_Desenvolvedor_Backend_Java.pdf";
-  resumeLink.textContent = "Baixar currículo PDF ↓";
-  heroActions.appendChild(resumeLink);
-}

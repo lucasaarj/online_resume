@@ -46,6 +46,8 @@ button { font: inherit; }
 .hero-kicker { color: #d5deed; font-size: 15px; margin: 0 0 9px; }
 h1 { font-size: clamp(42px, 5.2vw, 67px); line-height: 1.08; letter-spacing: -.065em; margin: 0; font-weight: 800; }
 .hero-description { color: #a9b6ca; font-size: 15px; line-height: 1.9; max-width: 570px; margin: 24px 0 28px; }
+.hero-objective { color: #dce6f5; font-size: 13px; line-height: 1.7; margin: -13px 0 25px; max-width: 590px; }
+.hero-objective strong { color: var(--accent-2); font-weight: 800; }
 .hero-actions, .contact-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 17px; border-radius: 7px; padding: 13px 18px; font-size: 12px; font-weight: 800; transition: transform .2s, background .2s, border-color .2s; }
 .button:hover { transform: translateY(-3px); }
